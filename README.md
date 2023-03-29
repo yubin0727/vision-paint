@@ -1,13 +1,7 @@
 # vision-paint
-My computer vision painter using OpenCV
+Image editing and processing using OpenCV
 
-- **Free Drawing Painter**
-  - [Free_Drawing.py](https://github.com/yubin0727/vision-paint/blob/main/Free_Drawing.py)
-  - Handling mouse events
-  - We can draw point, line, ellipse, rectangle
-  - 'Tab' : change brush color
-  - '+' : increase the radius
-  - '-' : decrease the radius
-  - (space) : change brush mode
-  
-  ![Free_Drawing](https://user-images.githubusercontent.com/101437398/225654778-5a01ef17-67fa-4ea1-b6c4-4eab94729985.png)
+- [**Free Drawing Painter**](https://github.com/yubin0727/vision-paint/tree/main/free_drawing)
+  - free drawing painter
+- [**Photo to Cartoon**](https://github.com/yubin0727/vision-paint/tree/main/photo-to-cartoon)
+  - convert photo to cartoon(cartoonize)
