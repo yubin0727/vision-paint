@@ -2,7 +2,7 @@
 This is a free drawing painter using OpenCV
 
 - **Free Drawing Painter**
-  - [Free_Drawing.py](https://github.com/yubin0727/vision-paint/blob/main/Free_Drawing.py)
+  - [Free_Drawing.py](https://github.com/yubin0727/vision-paint/blob/main/free_drawing/Free_Drawing.py)
   - Handling mouse events
   - We can draw point, line, ellipse, rectangle
   - 'Tab' : change brush color
