@@ -3,7 +3,7 @@ import numpy as np
 
 while True:
     # Read the given image
-    img = cv.imread('background.png')
+    img = cv.imread('stone.png')
 
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     gray = cv.medianBlur(gray, 5)
@@ -11,7 +11,7 @@ while True:
     ret, edge = cv.threshold(edge, 150, 255, cv.THRESH_BINARY_INV)
     color = cv.bilateralFilter(img, 7, 200, 400)
     cartoon = cv.bitwise_and(color, color, mask=edge)
-    cv.imshow('Cartoonize', cartoon) 
+    cv.imshow('Cartoonize_cartoon.py', cartoon) 
     
     key = cv.waitKey()
     if key == 27: # ESC
